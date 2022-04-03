@@ -1,0 +1,10 @@
+<div class="characters-paces">
+  <div class="players t">
+
+  </div>
+  <div class="enemies t">
+    <app-character [character]="enemy" *ngFor="let enemy of enemies"></app-character>
+  </div>
+</div>
+
+<div class="background" style="background-image: url('/assets/battle/battlebg_mistywoods.png')"></div>
